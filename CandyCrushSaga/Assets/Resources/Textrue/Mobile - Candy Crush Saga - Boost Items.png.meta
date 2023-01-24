@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: f3ee2ebbeba48d54597bb94c5052dca8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 469
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b7365c7e4b10f4099fb0eca3ca2f89
+      internalID: 1747426351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_1
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 410
+        width: 132
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5defcbc49ae20b74e91db36fdfc6a2a0
+      internalID: -550037325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_2
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 410
+        width: 132
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b3bc5b5793c3e4baf0e48983a4c515
+      internalID: -1481384789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 410
+        width: 132
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da57e65b082ed5140b4e56d89342bb56
+      internalID: -184583688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_4
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 422
+        width: 100
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0601f3560b659254eac85a554b4684c5
+      internalID: -1252963310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 229
+        width: 119
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0f5c9416cd63c4c8cbd77bc886da79
+      internalID: -329667179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 231
+        width: 124
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33516fe01150a324c97088a218e32fcd
+      internalID: -1559744469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 245
+        width: 124
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be49ece873975741802a404a2e823bb
+      internalID: 1152884231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 271
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439f63011ad6b3e4aba8c307e2d4e410
+      internalID: 140452497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_9
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 266
+        width: 132
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8185540487dd2c9458b79f9e40e6691e
+      internalID: -1324791931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 271
+        width: 124
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fb383f0f669ec419fcbb17abfae5b8
+      internalID: 2033450701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_11
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 271
+        width: 124
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552f5141997777b4488ed918e69412ce
+      internalID: 1046835282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_12
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 342
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be07f42db5e9b10418bf6389ea1c493f
+      internalID: -1242146865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 115
+        width: 114
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96b192ba31c8714c977f92e9b882783
+      internalID: 5836003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 119
+        width: 116
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fed26ea8f22894eb539f975f4fffb6
+      internalID: -448234329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 133
+        width: 116
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b727eb3850f8ba449c250bfbefacea4
+      internalID: -864405351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 201
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f534fc4c702fe884282b8c9eade9bf1d
+      internalID: 2124920276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 146
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1941d1ef1a8d3dd48a4ac5109a0838b2
+      internalID: -2049889987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 136
+        width: 124
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33d4b07c7801b84dbac0d3ef6db7d8f
+      internalID: 1100183110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_19
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 136
+        width: 113
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f049dbab34d7c44921186a1aa7c91d
+      internalID: -523286850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_20
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 207
+        width: 124
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab5621017e95a24eab33ea80f7e3a44
+      internalID: -799245802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_21
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 141
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd13bfc505a3144d8696766a1d458a8
+      internalID: 1758197584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_22
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 80
+        width: 124
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f95cd3f032dbba49add51a843f39c3e
+      internalID: 1024437740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56abbfa426da9424d9f452bc60d84c71
+      internalID: 103315636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_24
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 2
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c9a80a360472b499759e704a7e1365
+      internalID: -127062062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_25
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 15
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4fd16571a33484194a3a2fda985768
+      internalID: -1228826478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Boost Items_26
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 26
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f82ca220aa8624d983246a3136ef6f
+      internalID: -687036819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Candy Crush Saga - Boost Items_5: -329667179
+      Mobile - Candy Crush Saga - Boost Items_16: 2124920276
+      Mobile - Candy Crush Saga - Boost Items_8: 140452497
+      Mobile - Candy Crush Saga - Boost Items_7: 1152884231
+      Mobile - Candy Crush Saga - Boost Items_6: -1559744469
+      Mobile - Candy Crush Saga - Boost Items_4: -1252963310
+      Mobile - Candy Crush Saga - Boost Items_20: -799245802
+      Mobile - Candy Crush Saga - Boost Items_26: -687036819
+      Mobile - Candy Crush Saga - Boost Items_22: 1024437740
+      Mobile - Candy Crush Saga - Boost Items_3: -184583688
+      Mobile - Candy Crush Saga - Boost Items_9: -1324791931
+      Mobile - Candy Crush Saga - Boost Items_0: 1747426351
+      Mobile - Candy Crush Saga - Boost Items_23: 103315636
+      Mobile - Candy Crush Saga - Boost Items_13: 5836003
+      Mobile - Candy Crush Saga - Boost Items_10: 2033450701
+      Mobile - Candy Crush Saga - Boost Items_14: -448234329
+      Mobile - Candy Crush Saga - Boost Items_15: -864405351
+      Mobile - Candy Crush Saga - Boost Items_19: -523286850
+      Mobile - Candy Crush Saga - Boost Items_18: 1100183110
+      Mobile - Candy Crush Saga - Boost Items_24: -127062062
+      Mobile - Candy Crush Saga - Boost Items_21: 1758197584
+      Mobile - Candy Crush Saga - Boost Items_2: -1481384789
+      Mobile - Candy Crush Saga - Boost Items_1: -550037325
+      Mobile - Candy Crush Saga - Boost Items_17: -2049889987
+      Mobile - Candy Crush Saga - Boost Items_12: -1242146865
+      Mobile - Candy Crush Saga - Boost Items_25: -1228826478
+      Mobile - Candy Crush Saga - Boost Items_11: 1046835282
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

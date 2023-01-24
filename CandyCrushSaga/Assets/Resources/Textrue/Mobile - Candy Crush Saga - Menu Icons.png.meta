@@ -1,0 +1,1288 @@
+fileFormatVersion: 2
+guid: bdf7afc9d15440e458ee4756f641d4e8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 619
+        width: 403
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adfb64c1d11dd54398691d5071b7c24
+      internalID: 449523694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_1
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 963
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb85e6cbad08bb428221b8470b77e65
+      internalID: -298407196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_2
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 934
+        width: 91
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36275911879fa0b479df2fd6605e4a34
+      internalID: 1434412178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_3
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 958
+        width: 96
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0970822e6a65874429940d1a1f3183bf
+      internalID: 2109328909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_4
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 912
+        width: 268
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d98432ec16d154ca07c747a85c61f2
+      internalID: -1289546465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_5
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 910
+        width: 7
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b74057fdfd98e4e8e8058c40389ff6
+      internalID: 1705107349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 898
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18484fb4e9afeab45b2423d5a1be5eee
+      internalID: 1794364992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_7
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 842
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822c3da8ec5d88d408bd63388b89f150
+      internalID: -817762418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_8
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 840
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904aa35ebef13774a965cf142f1c84c5
+      internalID: -1660697442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_9
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 833
+        width: 256
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade728be44d005048b4bf8b242141423
+      internalID: -2041856118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_10
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 805
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00d65e6ef166b5489043382d890c393
+      internalID: -80504579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 750
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeb9d935f637cc41b04385af7d5a4a9
+      internalID: 1757612509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_12
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 684
+        width: 123
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3817c5937bdd942a73e91f4728b699
+      internalID: -255317757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_13
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 755
+        width: 256
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5dfe8c96d760d47afc718c5d673174
+      internalID: -1471978846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_14
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 713
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f710fadf48faa794b983fcc1b1f5e26e
+      internalID: 1007016395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 658
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9730ce442b6734a8bad4d7b2bb79b9
+      internalID: 1648965266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_16
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 678
+        width: 255
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2a35f37bf02ae468d625a30d0e4bcd
+      internalID: -918457167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_17
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 624
+        width: 84
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6a3d2da794cc047a7a0c8bc2f23288
+      internalID: -1922514049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_18
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 572
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d6acf97bc3f054d9fac1d499df6053
+      internalID: 1619174601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 566
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81375ebe93baeef42a2bd0dff19c53c7
+      internalID: -1292744708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_20
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 595
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13bf851fb6797e499799207650d351e
+      internalID: -1254237897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_21
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 595
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c1ad4fea36fb947ab88e0c451d4f3e
+      internalID: 2067245260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_22
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 595
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06efffd29b022b48aceceec4798d1d0
+      internalID: -1275535816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 254
+        width: 121
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c934b63053a93c449ead79ce48b0f63
+      internalID: -181352193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 254
+        width: 51
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a7128667ccc864d85eb7645820bd40
+      internalID: -2080600761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 254
+        width: 49
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fe40488288a164cab8140ac2afbacb
+      internalID: -250598319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_26
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 404
+        width: 210
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa01987f7fec6434ea7fbc3fa63791a3
+      internalID: -887520952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_27
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 576
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a446395e5161614fbb5813970c13fad
+      internalID: -1427425201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_28
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 517
+        width: 255
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f84af2c0f9e684dab303830c21975e
+      internalID: 1305822530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_29
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 407
+        width: 154
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24b1cccc058a94ab7629d3a3ba4626
+      internalID: -1325506524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_30
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 430
+        width: 132
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ba964861dda734fa7bbb6c6e09cf09
+      internalID: -661159926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_31
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 439
+        width: 255
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d85ae3302029ac43a40b39ded4e82ff
+      internalID: 1364110451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_32
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 259
+        width: 141
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5285070f4c14943a4cd50684075ee3
+      internalID: 1053704379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_33
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 260
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfb3d4f9beea694e990c64739df72bc
+      internalID: -1280134064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_34
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 269
+        width: 141
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48375abad3fdd894fab67a45a52d2dcb
+      internalID: 997847880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_35
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 357
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1b834f848e5fb44a20f0b445cf24fd
+      internalID: 3386671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_36
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 358
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84698e22c97af6a4faf710cce5e79c7d
+      internalID: -1468021679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_37
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 356
+        width: 141
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bdf3469b1a57f43919d18feb1a4925
+      internalID: -136133655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_38
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 274
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534d81ab4286dad42b2bc39ddf7b5479
+      internalID: -1645056582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_39
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 274
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a66f94298c202a4d8b03d1125b1af23
+      internalID: -1751447062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_40
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 282
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8cc362d1d9a4f4fb561579fc95adbb
+      internalID: -517985432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 213
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6369a92110dfadf4986f67da020bf658
+      internalID: -455075246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_42
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 39
+        width: 210
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2b8c4ee734d9e4bb89920546502325
+      internalID: -360422219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_43
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 76
+        width: 180
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44073bfff7cd45b4598ce1ee8e237da6
+      internalID: -737430982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_44
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 133
+        width: 132
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baf09e3d912c0944b6bda3d48b80b6f
+      internalID: -651961288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_45
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 198
+        width: 83
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eaa57a14f66064799b6dc5ec70d6c9
+      internalID: 1842150350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa4024a837aa324aa6b34b0af10e5e2
+      internalID: 237072268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_47
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 7
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4fd9aba9845fd40aab0634f5917e86
+      internalID: -2004632038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_48
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 20
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d908af5df12aa1c459f5be3c926d20d1
+      internalID: -2113903658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_49
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 3
+        width: 301
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f9b2d19f3ce6746ac8a034ac221e7a
+      internalID: 1889254276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_50
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 15
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee799473373f684a95c4f65b8541916
+      internalID: -2006325055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_51
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 3
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a2da95e5ed7e745bd07a4e2b7907bd
+      internalID: -340769005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Candy Crush Saga - Menu Icons_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60de44c181c32840b5513cadec1eed0
+      internalID: 1345464213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile - Candy Crush Saga - Menu Icons_15: 1648965266
+      Mobile - Candy Crush Saga - Menu Icons_3: 2109328909
+      Mobile - Candy Crush Saga - Menu Icons_38: -1645056582
+      Mobile - Candy Crush Saga - Menu Icons_20: -1254237897
+      Mobile - Candy Crush Saga - Menu Icons_30: -661159926
+      Mobile - Candy Crush Saga - Menu Icons_46: 237072268
+      Mobile - Candy Crush Saga - Menu Icons_41: -455075246
+      Mobile - Candy Crush Saga - Menu Icons_19: -1292744708
+      Mobile - Candy Crush Saga - Menu Icons_6: 1794364992
+      Mobile - Candy Crush Saga - Menu Icons_39: -1751447062
+      Mobile - Candy Crush Saga - Menu Icons_37: -136133655
+      Mobile - Candy Crush Saga - Menu Icons_35: 3386671
+      Mobile - Candy Crush Saga - Menu Icons_11: 1757612509
+      Mobile - Candy Crush Saga - Menu Icons_1: -298407196
+      Mobile - Candy Crush Saga - Menu Icons_10: -80504579
+      Mobile - Candy Crush Saga - Menu Icons_26: -887520952
+      Mobile - Candy Crush Saga - Menu Icons_16: -918457167
+      Mobile - Candy Crush Saga - Menu Icons_4: -1289546465
+      Mobile - Candy Crush Saga - Menu Icons_33: -1280134064
+      Mobile - Candy Crush Saga - Menu Icons_49: 1889254276
+      Mobile - Candy Crush Saga - Menu Icons_47: -2004632038
+      Mobile - Candy Crush Saga - Menu Icons_8: -1660697442
+      Mobile - Candy Crush Saga - Menu Icons_25: -250598319
+      Mobile - Candy Crush Saga - Menu Icons_5: 1705107349
+      Mobile - Candy Crush Saga - Menu Icons_18: 1619174601
+      Mobile - Candy Crush Saga - Menu Icons_34: 997847880
+      Mobile - Candy Crush Saga - Menu Icons_50: -2006325055
+      Mobile - Candy Crush Saga - Menu Icons_21: 2067245260
+      Mobile - Candy Crush Saga - Menu Icons_43: -737430982
+      Mobile - Candy Crush Saga - Menu Icons_51: -340769005
+      Mobile - Candy Crush Saga - Menu Icons_45: 1842150350
+      Mobile - Candy Crush Saga - Menu Icons_44: -651961288
+      Mobile - Candy Crush Saga - Menu Icons_31: 1364110451
+      Mobile - Candy Crush Saga - Menu Icons_42: -360422219
+      Mobile - Candy Crush Saga - Menu Icons_36: -1468021679
+      Mobile - Candy Crush Saga - Menu Icons_0: 449523694
+      Mobile - Candy Crush Saga - Menu Icons_29: -1325506524
+      Mobile - Candy Crush Saga - Menu Icons_22: -1275535816
+      Mobile - Candy Crush Saga - Menu Icons_12: -255317757
+      Mobile - Candy Crush Saga - Menu Icons_52: 1345464213
+      Mobile - Candy Crush Saga - Menu Icons_9: -2041856118
+      Mobile - Candy Crush Saga - Menu Icons_14: 1007016395
+      Mobile - Candy Crush Saga - Menu Icons_24: -2080600761
+      Mobile - Candy Crush Saga - Menu Icons_13: -1471978846
+      Mobile - Candy Crush Saga - Menu Icons_48: -2113903658
+      Mobile - Candy Crush Saga - Menu Icons_40: -517985432
+      Mobile - Candy Crush Saga - Menu Icons_32: 1053704379
+      Mobile - Candy Crush Saga - Menu Icons_28: 1305822530
+      Mobile - Candy Crush Saga - Menu Icons_17: -1922514049
+      Mobile - Candy Crush Saga - Menu Icons_7: -817762418
+      Mobile - Candy Crush Saga - Menu Icons_27: -1427425201
+      Mobile - Candy Crush Saga - Menu Icons_23: -181352193
+      Mobile - Candy Crush Saga - Menu Icons_2: 1434412178
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
