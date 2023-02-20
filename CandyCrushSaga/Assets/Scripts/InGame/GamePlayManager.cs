@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Experimental.AI;
 using UnityEngine.Playables;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 enum PLAYSTATE
 {
@@ -39,7 +39,12 @@ public class GamePlayManager : MonoBehaviour
     bool isDestroy;
     float t;
 
+    int combo;
+
     PLAYSTATE playState;
+
+    [SerializeField]
+    GameObject[] comboPanels = new GameObject[3];
 
     private void Awake()
     {
@@ -85,6 +90,16 @@ public class GamePlayManager : MonoBehaviour
 
                 iCandy.gameObject.transform.SetParent(this.transform);
             }
+
+            for (int i = 0; i < 3; i++)
+            {
+                Image img = comboPanels[i].GetComponent<Image>();
+                Color color = img.color;
+                color.a = 0.0f;
+                img.color = color;
+
+                comboPanels[i].SetActive(false);
+            }
         }
     }
 
@@ -108,7 +123,6 @@ public class GamePlayManager : MonoBehaviour
                 if (Input.GetMouseButtonUp(0))
                 {
                     MoveCandy();
-                    --moveScore.MoveCount;
                 }
                 break;
             case PLAYSTATE.DESTROY:
@@ -132,6 +146,8 @@ public class GamePlayManager : MonoBehaviour
                     FillUpCandy();
                 }
                 break;
+            //case PLAYSTATE.COMBO:
+            //    break;
         }
     }
 
@@ -175,6 +191,7 @@ public class GamePlayManager : MonoBehaviour
         else
         {
             playState = PLAYSTATE.FALL;
+            ++combo;
         }
     }
 
@@ -276,8 +293,8 @@ public class GamePlayManager : MonoBehaviour
 
                 if (true == isFall)
                 {
-                    Debug.Log("x: " + x);
-                    Debug.Log("y: " + underY);
+                    //Debug.Log("x: " + x);
+                    //Debug.Log("y: " + underY);
 
                     candies[x][y].FallCandy(pos);
                     candies[x][underY - 1] = candies[x][y];
@@ -368,7 +385,7 @@ public class GamePlayManager : MonoBehaviour
         curMousePosition = camera.ScreenToWorldPoint(curMousePosition);
         curMousePosition.z = 0.0f;
 
-        Vector3 mouseDir = curMousePosition - mousePosition;
+        Vector3 mouseDir = curMousePosition - mousePosition; 
 
         selectCandy.IsSelect = true;
 
@@ -420,6 +437,8 @@ public class GamePlayManager : MonoBehaviour
             return;
         }
 
+        --moveScore.MoveCount;
+
         int tempX = _RightCandy.CandyX;
         int tempY = _RightCandy.CandyY;
 
@@ -442,6 +461,3 @@ public class GamePlayManager : MonoBehaviour
         playState = PLAYSTATE.DESTROY;
     }
 }
-
-
-

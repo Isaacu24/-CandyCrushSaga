@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.XR;
 using static UnityEngine.ParticleSystem;
 using static UnityEngine.RuleTile.TilingRuleOutput;
 
@@ -18,13 +19,6 @@ enum CANDYTYPE
     ORANGE
 }
 
-enum CANDYSTATE
-{
-    IDLE,
-    DESTROY,
-    FALL
-}
-
 public class Candy : MonoBehaviour
 {
     int x;
@@ -37,9 +31,9 @@ public class Candy : MonoBehaviour
     private ParticleSystem particle;
 
     private SpriteRenderer spriteRenderer;
+    StateComponent stateComponent;
 
     CANDYTYPE candyType = CANDYTYPE.RED;
-    CANDYSTATE state = CANDYSTATE.IDLE;
 
     float deathTime = 0.0f;
 
@@ -67,43 +61,61 @@ public class Candy : MonoBehaviour
 
         candyType = (CANDYTYPE)Random.RandomRange(0, 6);
         spriteRenderer.sprite = sprites[(int)candyType];
+
+        stateComponent = new StateComponent();
+        stateComponent.CreateState("Idle", IdleUpdate);
+        stateComponent.CreateState("Destroy", DestroyUpdate, DestroyStart);
+        stateComponent.CreateState("Fall", FallUpdate);
+        stateComponent.ChangeState("Idle");
     }
 
     void Update()
     {
-        switch (state)
+        stateComponent.StateUpdate();
+
+        Debug.Log(stateComponent.CurStateInfo.StateName);
+    }
+
+    void IdleUpdate()
+    {
+
+    }
+
+    void DestroyStart()
+    {
+        
+    }
+
+    void DestroyUpdate()
+    {
+        GamePlayManager.instance.CandyList[x][y] = null;
+
+        if (null != Score.instance)
         {
-            case CANDYSTATE.IDLE:
-                break;
-            case CANDYSTATE.DESTROY:
-                GamePlayManager.instance.CandyList[x][y] = null;
+            Score.instance.PlusScore(100);
+        }
 
-                if (null != Score.instance)
-                {
-                    Score.instance.PlusScore(100);
-                }
+        if (null != SoundManager.instance)
+        {
+            SoundManager.instance.LandCandy();
+        }
 
-                if (null != SoundManager.instance)
-                {
-                    SoundManager.instance.LandCandy();
-                }
+        particle.gameObject.SetActive(true);
+        particle.transform.position = transform.position;
+        particle.Play();
 
-                particle.gameObject.SetActive(true);
-                particle.transform.position = transform.position;
-                particle.Play();
+        Destroy(gameObject);
+    }
 
-                Destroy(gameObject);
-                break;
-            case CANDYSTATE.FALL:
-                speed += Time.deltaTime * 1.5f;
-                gameObject.transform.position = Vector3.Lerp(fallStartPos, fallPos, speed);
+    void FallUpdate()
+    {
+        speed += Time.deltaTime * 1.5f;
+        gameObject.transform.position = Vector3.Lerp(fallStartPos, fallPos, speed);
 
-                if (1.0f < speed)
-                {
-                    speed = 0.0f;
-                    state = CANDYSTATE.IDLE;
-                }
-                break;
+        if (1.0f < speed)
+        {
+            speed = 0.0f;
+            stateComponent.ChangeState("Idle");
         }
     }
 
@@ -173,9 +185,9 @@ public class Candy : MonoBehaviour
                 }
 
                 if (candyType == candy.candyType
-                    && CANDYSTATE.IDLE == candy.state)
+                    && "Idle" == candy.stateComponent.CurStateInfo.StateName)
                 {
-                    candy.state = CANDYSTATE.DESTROY;
+                    candy.stateComponent.ChangeState("Destroy");
                     candies.Enqueue(candy);
                     destroyCandies.Add(candy);
                 }
@@ -186,7 +198,7 @@ public class Candy : MonoBehaviour
         {
             for (int i = 0; i < destroyCandies.Count; i++)
             {
-                destroyCandies[i].state = CANDYSTATE.IDLE;
+                destroyCandies[i].stateComponent.ChangeState("Idle");
             }
         }
 
@@ -215,7 +227,7 @@ public class Candy : MonoBehaviour
                 {
                     if (true == destroyCandies[i].isSelect)
                     {
-                        destroyCandies[i].state = CANDYSTATE.IDLE;
+                        destroyCandies[i].stateComponent.ChangeState("Idle");
                         destroyCandies[i].ChangeWidthStripeCandy();
 
                         break;
@@ -223,7 +235,7 @@ public class Candy : MonoBehaviour
 
                     else if (destroyCandies.Count - 1 == i)
                     {
-                        destroyCandies[i].state = CANDYSTATE.IDLE;
+                        destroyCandies[i].stateComponent.ChangeState("Idle");
                         destroyCandies[i].ChangeWidthStripeCandy();
                     }
                 }
@@ -257,9 +269,9 @@ public class Candy : MonoBehaviour
                 }
 
                 if (candyType == candy.candyType
-                    && CANDYSTATE.IDLE == candy.state)
+                    && "Idle" == candy.stateComponent.CurStateInfo.StateName)
                 {
-                    candy.state = CANDYSTATE.DESTROY;
+                    candy.stateComponent.ChangeState("Destroy");
                     candies.Enqueue(candy);
                     destroyCandies.Add(candy);
                 }
@@ -270,7 +282,7 @@ public class Candy : MonoBehaviour
         {
             for (int i = 0; i < destroyCandies.Count; i++)
             {
-                destroyCandies[i].state = CANDYSTATE.IDLE;
+                destroyCandies[i].stateComponent.ChangeState("Idle");
             }
         }
 
@@ -299,7 +311,7 @@ public class Candy : MonoBehaviour
                 {
                     if (true == destroyCandies[i].isSelect)
                     {
-                        destroyCandies[i].state = CANDYSTATE.IDLE;
+                        destroyCandies[i].stateComponent.ChangeState("Idle");
                         destroyCandies[i].ChangeLengthStripeCandy();
 
                         break;
@@ -307,7 +319,7 @@ public class Candy : MonoBehaviour
 
                     else if (destroyCandies.Count - 1 == i)
                     {
-                        destroyCandies[i].state = CANDYSTATE.IDLE;
+                        destroyCandies[i].stateComponent.ChangeState("Idle");
                         destroyCandies[i].ChangeLengthStripeCandy();
                     }
                 }
@@ -322,7 +334,8 @@ public class Candy : MonoBehaviour
     {
         fallStartPos = gameObject.transform.position;
         fallPos = _FallPos;
-        state = CANDYSTATE.FALL;
+
+        stateComponent.ChangeState("Fall");
     }
 
     //ÁÙ¹«´Ì Äµµð
@@ -396,6 +409,6 @@ public class Candy : MonoBehaviour
 
     public void Destroy()
     {
-        state = CANDYSTATE.DESTROY;
+        stateComponent.ChangeState("Destroy");
     }
 }

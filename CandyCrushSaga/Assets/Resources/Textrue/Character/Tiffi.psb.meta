@@ -21,6 +21,8 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
@@ -47,6 +49,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -87,7 +90,6 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
@@ -405,7 +407,6 @@ ScriptedImporter:
     - {x: 23, y: 24}
     - {x: 24, y: 25}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: -527, y: -200}
   - name: "\uFFFD\uFFFD\uFFFD\u033E\uFFFD 3"
     originalName: 
@@ -721,7 +722,6 @@ ScriptedImporter:
     - {x: 23, y: 24}
     - {x: 24, y: 25}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: -357, y: -116}
   - name: "\uFFFD\uFFFD\uFFFD\u033E\uFFFD 1"
     originalName: 
@@ -1325,7 +1325,6 @@ ScriptedImporter:
     - {x: 50, y: 51}
     - {x: 51, y: 52}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: -380, y: -374}
   characterData:
     bones:
@@ -1377,6 +1376,7 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   sharedRigSpriteImportData: []
   sharedRigCharacterData:
@@ -1384,6 +1384,7 @@ ScriptedImporter:
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   platformSettings: []
   mosaicLayers: 1
@@ -1396,6 +1397,7 @@ ScriptedImporter:
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
+  padding: 4
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -1434,6 +1436,7 @@ ScriptedImporter:
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
+  importFileNodeState: 1
   generateGOHierarchy: 0
   textureAssetName: 
   prefabAssetName: 

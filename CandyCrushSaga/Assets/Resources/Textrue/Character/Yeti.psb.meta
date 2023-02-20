@@ -21,6 +21,8 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
@@ -47,6 +49,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -87,7 +90,6 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
@@ -653,7 +655,6 @@ ScriptedImporter:
     - {x: 42, y: 43}
     - {x: 43, y: 44}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 127, y: -284}
   - name: "\uFFFD\uFFFD\uFFFD\u033E\uFFFD 3"
     originalName: 
@@ -1286,7 +1287,6 @@ ScriptedImporter:
     - {x: 40, y: 41}
     - {x: 41, y: 42}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: -324, y: 443}
   - name: "\uFFFD\uFFFD\uFFFD\u033E\uFFFD 2"
     originalName: 
@@ -1928,7 +1928,6 @@ ScriptedImporter:
     - {x: 39, y: 40}
     - {x: 40, y: 41}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: 3, y: 167}
   - name: "\uFFFD\uFFFD\uFFFD\u033E\uFFFD 1"
     originalName: 
@@ -2610,7 +2609,6 @@ ScriptedImporter:
     - {x: 51, y: 52}
     - {x: 52, y: 53}
     tessellationDetail: 0
-    parentGroupIndex: -1
     uvTransform: {x: -114, y: -127}
   characterData:
     bones:
@@ -2689,6 +2687,7 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   sharedRigSpriteImportData: []
   sharedRigCharacterData:
@@ -2696,6 +2695,7 @@ ScriptedImporter:
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   platformSettings: []
   mosaicLayers: 1
@@ -2708,6 +2708,7 @@ ScriptedImporter:
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
+  padding: 4
   spriteCategoryList:
     categories: []
   spritePackingTag: 
@@ -2756,6 +2757,7 @@ ScriptedImporter:
     isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
+  importFileNodeState: 1
   generateGOHierarchy: 0
   textureAssetName: 
   prefabAssetName: 
